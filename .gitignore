@@ -1,0 +1,39 @@
+# Build artifacts
+build/
+build-*/
+**/build/
+**/build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Model artifacts
+*.onnx
+*.pt
+*.pth
+*.engine
+
+# Local datasets and recordings
+datasets/*
+!datasets/README.md
+*.mp4
+*.avi
+*.mov
+
+# Generated outputs
+outputs/
+logs/
+*.log
+
+# Environment files
+.env
+.env.*
